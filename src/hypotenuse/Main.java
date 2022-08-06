@@ -12,12 +12,14 @@ public class Main {
 		Scanner scanner = new Scanner(System.in);
 
 		System.out.println("Enter first side: ");
-		a = scanner.nextInt();
+		a = scanner.nextDouble();
 		System.out.println("Enter second side: ");
-		b = scanner.nextInt();
+		b = scanner.nextDouble();
 
 		c = Math.sqrt((a * a) + (b * b));
 		System.out.println("The hypotenuse of the Triangle is: " + c);
+
+		scanner.close();
 
 	}
 
