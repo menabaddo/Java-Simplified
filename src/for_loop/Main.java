@@ -8,7 +8,7 @@ public class Main {
 
 		// initialization, condition, increment
 
-		for (int x = 10; x >= 1;x--;) { // you could decrement here
+		for (int x = 10; x >= 1; x--) { // you could decrement here
 
 			System.out.println(x);
 			// // you could also decrement within the code
