@@ -33,7 +33,8 @@ public class Main {
 
 				/**
 				 * this loop basically adds the symbols based on the number of times the user
-				 * specified
+				 * specified and once execution is done in inner for loop, it goes back to the
+				 * outer for loop
 				 */
 
 				System.out.print(symbols);
