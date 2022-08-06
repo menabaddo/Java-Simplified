@@ -19,6 +19,8 @@ public class Main {
 
 		int y = random.nextInt(6) + 1;
 
+		System.out.println(y);
+
 		// random can also be used with boolean data type
 
 		boolean a;
@@ -27,6 +29,6 @@ public class Main {
 
 		System.out.println(a);
 
-		System.out.println(y);
+
 	}
 }
