@@ -22,6 +22,8 @@ public class Main {
 		// unboxing = the reverse of autoboxing. Automatic conversion of wrapper class
 		// to primitive
 
+		// PRIMITIVE VALUE ARE A LOT FASTER THAN REFERENCED DATA TYPE
+
 		String a = "Alex";
 		boolean b = true; // primitive data type
 		Boolean c = false; // referenced data type
