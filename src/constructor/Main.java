@@ -18,7 +18,7 @@ public class Main {
 		System.out.println(Alex2.age);
 
 		// basically constructors allows user to assign different attributes
-		// to objects that are instantaited
+		// to objects that are instantiated
 
 
 	}
