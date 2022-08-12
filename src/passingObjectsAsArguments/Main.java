@@ -8,7 +8,7 @@ public class Main {
 		Car car = new Car("Mercedes");
 		Car car2 = new Car("Tesla");
 
-		garage.park(car2);
+		garage.park(car2); // park method is accepting an object as an argument
 
 	}
 
