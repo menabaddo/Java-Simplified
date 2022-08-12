@@ -4,12 +4,13 @@ import java.util.Random;
 
 public class DiceRoller {
 
-	int number = 0;
-	Random random = new Random();
+	int number; // global
+	Random random; // global
 
 	DiceRoller() {
-		int number = 0;// local
-		Random random = new Random(); // local
+		random = new Random();
+		int number = 0;// local not used
+		Random random = new Random(); // local not used
 		rollDice(); // could be made available in the rollDice method by passing it as an argument
 
 	}
