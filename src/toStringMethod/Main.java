@@ -10,8 +10,11 @@ public class Main {
 		Car myCar = new Car();
 
 
-		System.out.println(myCar.toString()); // gives you the address of the object on memory, like the street address
+		System.out.println(myCar.toString()); // explicit // gives you the address of the object on memory, like the
+												// street address
 		// .toString() is already added by default
+
+		System.out.println(myCar); // implicit
 
 		// .toString() could also be overridden
 	}
