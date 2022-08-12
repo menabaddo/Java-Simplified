@@ -21,6 +21,9 @@ public class Main {
 
 		System.out.println(mySecondCar.make);
 
+		// but a constructor will be needed to make my second car have a different
+		// attribute
+
 		myCar.drive();
 
 	}
