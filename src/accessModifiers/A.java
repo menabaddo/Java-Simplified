@@ -6,7 +6,9 @@ public class A {
 
 	public static void main(String[] args) {
 		B b = new B();
-		System.out.println(b.privateMessage);
+//		System.out.println(b.privateMessage); 
+
+		// cannot be accessed outside of the class it is declared
 	}
 
 }
