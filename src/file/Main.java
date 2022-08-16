@@ -20,7 +20,8 @@ public class Main {
 												// // file
 			System.out.println(file.getAbsolutePath()); // returns the location
 			System.out.println(file.isFile());
-			file.delete();
+			file.delete(); // to delete a file
+
 		}
 		else {
 			System.out.println("The file doesn't exist");
