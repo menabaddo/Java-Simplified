@@ -14,6 +14,7 @@ public class Main {
 		Vehicle[] racers = { car, bicycle, boat };
 		// storing different objects within an array using polymorphism
 
+		// for each loop
 		for (Vehicle x : racers) {
 			x.go();
 		}
