@@ -50,6 +50,8 @@ public class Variables {
 			int y = 123; // initialization
 		 System.out.println(y);
 
+
+
 		
 	}
 

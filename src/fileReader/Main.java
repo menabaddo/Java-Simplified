@@ -19,8 +19,9 @@ public class Main {
 			System.out.println(data);
 
 			while (data != -1) {
-				System.out.print((char) data);
+				System.out.print((char) data); // read returns the byte value and stores it in an integer
 				data = reader.read();
+				System.out.println(data);
 			}
 
 		}
