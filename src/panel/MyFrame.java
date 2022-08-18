@@ -1,4 +1,4 @@
-package label;
+package panel;
 
 public class MyFrame {
 
